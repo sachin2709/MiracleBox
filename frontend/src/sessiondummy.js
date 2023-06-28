@@ -1,0 +1,96 @@
+export const sessionsGrid = [
+    {
+        field: "name",
+        headerText: "Session",
+        width: "150",
+        editType: "dropdownedit",
+        textAlign: "Center",
+    },
+    {
+        field: "category",
+        headerText: "Type",
+        width: "150",
+        editType: "dropdownedit",
+        textAlign: "Center",
+    },
+    {
+        field: "district",
+        headerText: "Area",
+        width: "150",
+        textAlign: "Center",
+    },
+    {
+        field: "date",
+        headerText: "Date",
+        format: "C2",
+        textAlign: "Center",
+        editType: "numericedit",
+        width: "150",
+    },
+    {
+        field: "description",
+        headerText: "Volunteer",
+        textAlign: "Center",
+        editType: "numericedit",
+        width: "150",
+    },
+];
+
+export const sessions = [
+    {
+        SessionName: "Session 1",
+        Type: "Medical",
+        Area: "Civil Lines",
+        Date: "10-12-2022",
+        Volunteer: "1",
+    },
+    {
+        SessionName: "Session 2",
+        Type: "Education",
+        Area: "Downtown",
+        Date: "15-02-2023",
+        Volunteer: "3",
+    },
+    {
+        SessionName: "Session 3",
+        Type: "Community Development",
+        Area: "Suburbia",
+        Date: "20-05-2023",
+        Volunteer: "2",
+    },
+    {
+        SessionName: "Session 4",
+        Type: "Art and Culture",
+        Area: "City Center",
+        Date: "08-07-2023",
+        Volunteer: "4",
+    },
+    {
+        SessionName: "Session 5",
+        Type: "Environmental",
+        Area: "Green Valley",
+        Date: "30-09-2023",
+        Volunteer: "1",
+    },
+    {
+        SessionName: "Session 6",
+        Type: "Sports",
+        Area: "Sports Complex",
+        Date: "12-11-2023",
+        Volunteer: "2",
+    },
+    {
+        SessionName: "Session 7",
+        Type: "Technology",
+        Area: "Innovation Park",
+        Date: "05-01-2024",
+        Volunteer: "3",
+    },
+    {
+        SessionName: "Session 8",
+        Type: "Music and Dance",
+        Area: "Art District",
+        Date: "18-03-2024",
+        Volunteer: "4",
+    },
+];
